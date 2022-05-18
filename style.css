@@ -1,0 +1,82 @@
+*,
+body {
+   margin: 0;
+   padding: 0;
+   background: #96d19d;
+}
+
+h1 {
+   margin: 10px 30px;
+   color: blueviolet;
+}
+
+#wrap {
+   width: 100%;
+
+}
+.game-start {
+   display: block;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   border: 1px solid rgb(0 0 0 / 30%);
+   border-radius: 8px;
+   cursor: pointer;
+   font-size: 1.5rem;
+   padding: 10px;
+}
+
+
+.game-start:hover {
+   box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+}
+
+.hiddren {
+   display: none;
+}
+
+.container {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 750px;
+   transform: translate(-50%, -50%);
+   text-align: center;
+}
+
+.superDiv {
+   margin: auto;
+}
+
+.contents {
+   display: inline-block;
+}
+
+img {
+   width: 150px;
+   height: 150px;
+   border: 1px solid black;
+}
+
+.nones {
+   display: inline;
+}
+
+#restart {
+   background: no-repeat url('./img/restart.svg');
+   background-size: 40px;
+   background-position: 20px 8px;
+   margin-top: 30px;
+   width: 80px;
+   height: 50px;
+   border-radius: 8px;
+   border: 1px solid lightgray;
+   position: relative;
+   opacity: 0.5;
+}
+
+#restart:hover {
+   border: 1px solid lightgray;
+   opacity: 1;
+}
